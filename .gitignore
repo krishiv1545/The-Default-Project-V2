@@ -1,4 +1,22 @@
-node_modules
-npm-debug.log
+# 📦 Node modules
+node_modules/
+
+# 🐛 Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 💾 SQLite database
+*.db
+prisma/dev.db
+
+# 🔒 Environment variables
 .env
+
+# 🍝 OS clutter
 .DS_Store
+Thumbs.db
+
+
+# 📜 Prisma migrations (✅ usually keep for team/production)
+prisma/migrations/
