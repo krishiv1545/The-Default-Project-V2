@@ -1,5 +1,5 @@
-// server.js
-const app = require("./src/app");
+// server.js (in the root)
+const app = require("./app");
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
